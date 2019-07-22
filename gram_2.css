@@ -1,0 +1,155 @@
+body {
+    background: gray;
+    font-family: arial;
+    margin: 0px
+}
+
+.header {
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+#proLink {
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    right:40px;
+    color: purple;
+    text-decoration: underline;
+}
+
+#proLink:active {
+    color: red;
+}
+
+#proLink:hover {
+    cursor: pointer;
+}
+
+.subhead {
+    font-weight:bold;
+}
+
+#poster {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40.3531px;
+    padding-left: 1.75%;
+    padding-right: 1.75%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+
+.wallField{
+    height:100%;
+    width:100%;
+}
+
+.wallField:focus {
+    border-color:lightblue;
+}
+
+.proField:focus {
+    border-color:lightblue;
+}
+
+.submit:focus{
+    border-style:solid;
+    border-color:lightblue;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.post {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-top: 40.3531px;
+    height: 200px;
+    width: 200px;
+    padding: 1% 1% 1% 1%;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.postImg {
+    max-width: 100%;
+    height: auto;
+    text-align:center;
+    position: relative;
+    bottom: 16px;
+}
+
+.caption {
+    width: 150px;
+}
+
+.delete {
+    font-weight: bold;
+    font-size: 16px;
+    position: relative;
+    left: 184px;
+    z-index: 1;
+    font: arialblack
+}
+
+.delete:hover {
+    cursor: pointer;
+}
+
+#profile {
+    background-color: white;
+    color: black;
+    font-size: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40.3531px;
+    padding-left: 1.75%;
+    padding-right: 1.75%;
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+
+#info {
+    margin-bottom: 12.5%;
+}
+
+#proEdSubhead {
+    font-size: 2em;
+}
+
+#bio {
+    font-weight: normal;
+}
+
+#wallLink {
+    text-align: right;
+    position: relative;
+    bottom: 50px;
+    right:40px;
+    color: purple;
+    text-decoration: underline;
+}
+
+#wallLink:active {
+    color: red;
+}
+
+#wallLink:hover {
+    cursor: pointer;
+}
+
+#wallLink:visited {
+    color: purple;
+}

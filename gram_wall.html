@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SAMStagram</title>
+
+        <link href="gram_2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">SAMS-tagram</div>
+        <p id = proLink onclick = "toPro()">Profile<p>
+            <form id="poster">
+                <p class="subhead"><strong><b>New Post!</b></strong></p>
+                
+                Image URL<br>
+                <input type="text" class="wallField" id=url><br>
+                <br>
+                
+                Caption<br>
+                <input type="text" class="wallField" id=text><br>
+                <input type="submit" value="Post" class="submit">
+            </form>
+        <div id="wall">
+            
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="gram_wall.js"></script>
+    </body>
+</html>

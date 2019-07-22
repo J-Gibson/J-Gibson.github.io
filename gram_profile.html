@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+
+        <link href="gram_2.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">SAMS-tagram</div>
+        <p id = wallLink onclick = "toWall()">News Feed<p>
+        <div id = profile>
+            <div id = info>
+                    <p id = name>[Anonymous]<p><br>
+                
+                    <b>Photo<b><br>
+                    <img id = proPic src = https://www.cmu.edu/homepage/images/2014/sams_success_1_201x201.jpg><br>
+                    <b>Bio<b><br>
+
+                    <p id = bio>This user has no bio...</p>
+            </div>
+            <form id="profiler">
+                
+                <p id="proEdSubhead"><b>Edit Profile</b></p>
+                
+                Name  <input type="text" class="proField" id=name_input><br>
+                Image URL <input type="text" class="proField" id=proPic_input><br>
+                Bio <input type="text" class="proField" id=bio_input><br>
+                <input type="submit" value="Save" class="submit">
+                
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="gram_profile.js"></script>
+    </body>
+</html>
