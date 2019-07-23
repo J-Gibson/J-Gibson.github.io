@@ -1,10 +1,11 @@
-body {
+#home {
     margin: 0px 0px 0px 0px;
+    background-color: green;
 }
 
 .header {
     margin: 0px 0px 0px 0px;
-    z-index: 3;
+    z-index: 4;
     text-align:center;
     background-color: lightgray;
     position: sticky;
@@ -27,17 +28,16 @@ body {
 }
 
 #me1 {
-    z-index: 1;
+    z-index: 2;
     position: relative;
-    bottom: 163px;
+    top: -250px;
     width:100%;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    bottom: 2708px;
 }
 
 #abtPrompt {
-    z-index: 2;
+    z-index: 3;
     text-align: center;
     position:relative;
     top:0px;
@@ -45,18 +45,34 @@ body {
     font-weight: bold;
     font-size: 12em;
     color: orange;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 #abtMe {
-    z-index: 2;
+    z-index: 3;
     background-color: orange;
-    color: green;
-    font-size: 4em;
-    font-family: georgia;
     position: relative;
-    top:1400px;
+    top: -250px;
+    color: green;
+    font-size: 6vw;
+    font-family: georgia;
     text-align:center;
-    padding-bottom: 600px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* Coding Portfolio Beginning */
+
+
+#codePort {
+    text-align: center;
+    font-family: arialblack;
+    background-color: green;
+    color: blue;
+    font-size: 3em;
+}
+
+.codePortLink {
+    color: orange;
 }
